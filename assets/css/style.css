@@ -57,14 +57,152 @@ main {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+h1 {
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.3em;
+    margin: 20px auto;
+    line-height: 1.2em;
+}
+
+#author {
+    color: grey;
+}
+
+strong {
+    color: rgb(128, 37, 105);
+    font-weight: 500;
+}
+
+
+main ul {
+    list-style: circle;
+    padding-left: 10%;
+}
+
+li {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+
+
+main ol {
+    list-style: decimal;
+    padding-left: 10%;
+}
+
+a {
+    color: rgb(2, 179, 179);
+    font-weight: 500;
+}
+
+#video {
+    display: block;
+    width: 100%;
+    border-radius: 10%;
+}
+
 /* TABELLE */
+
+caption {
+    font-weight: 500;
+    font-style: italic;
+}
+
+table {
+    font-size: 1.4em;
+    width: 100%;
+    border-bottom: 3px solid rgb(0, 119, 255);
+}
+
+th, td {
+    padding: 5%; /* fix overflow */
+}
+
+th {
+    background-color: rgb(0, 119, 255);
+    border: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(231, 231, 231);
+}
+
+
+
 
 /* FORM */
 
+#box-novità {
+    background-color: rgb(231, 231, 231);
+    margin: 30px auto;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+main h2 {
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px dotted #000;
+}
+
+button {
+    background-color: rgb(0, 119, 255);
+    color: whitesmoke;
+    height: 30px;
+    font-size: 1.2em;
+    border: none;
+}
+
+#box-novità p {
+/*     text-align: left; */
+}
+
+
+
 /* ELEMENTI NELL' ASIDE */
+
+#box-aside {
+
+}
+
+.articoli {
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.calendar {
+    text-align: right;
+    font-size: 0.9em;
+}
 
 /* FOOTER */
 
 footer {
     background-color: rgb(2, 85, 105);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: deeppink;
 }
