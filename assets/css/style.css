@@ -15,7 +15,7 @@ main,
 footer {
     margin: 20px;
     padding: 40px 20px;
-    box-shadow: 0.3em 0.3em 1em rgba(14, 12, 12, 0.6); /* fix this */
+    box-shadow: 0.3em 0.3em 1.2em rgba(14, 12, 12, 0.6); /* fix this */
 }
 
 h3 {
@@ -73,14 +73,22 @@ p {
 }
 
 strong {
-    color: rgb(128, 37, 105);
+    color: rgb(155, 44, 127);
     font-weight: 500;
+}
+
+code {
+    background-color: rgb(231, 231, 231);
+    border-radius: 20%;
+    border: 1px solid grey; 
+
 }
 
 
 main ul {
     list-style: circle;
     padding-left: 10%;
+    line-height: 1.7em;
 }
 
 li {
@@ -117,7 +125,7 @@ caption {
 }
 
 table {
-    font-size: 1.4em;
+    font-size: 1.2em;
     width: 100%;
     border-bottom: 3px solid rgb(0, 119, 255);
 }
