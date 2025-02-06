@@ -1,14 +1,59 @@
 /* IMPOSTAZIONI GENERALI */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-    /* background-image: url(/assets/img/sfondo.png); */
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(/assets/img/sfondo.png);
+/*     background-repeat: repeat; */
+}
+
+header,
+main,
+footer {
+    margin: 20px;
+    padding: 40px 20px;
+    box-shadow: 0.3em 0.3em 1em rgba(14, 12, 12, 0.6); /* fix this */
+}
+
+h3 {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    font-weight: 500;
 }
 
 /* HEADER */
 
+header {
+    background-color: rgb(2, 121, 151);
+    text-align: center;
+}
+
+header img {
+    width: 70%;
+}
+
+nav a{
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav li {
+    margin: 10px;
+}
 
 
 /* MAIN */
+
+main {
+    background-color: white;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
@@ -19,3 +64,7 @@ body {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+footer {
+    background-color: rgb(2, 85, 105);
+}
