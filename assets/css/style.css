@@ -13,7 +13,8 @@ body {
 header,
 main,
 footer {
-    margin: 20px;
+    margin: 20px auto;
+    width: 500px; /*  to make it always max 500px even on bigger screen together with the auto in the previous line*/
     padding: 40px 20px;
     box-shadow: 0.3em 0.3em 1.2em rgba(14, 12, 12, 0.6); /* fix this */
 }
@@ -89,6 +90,7 @@ main ul {
     list-style: circle;
     padding-left: 10%;
     line-height: 1.7em;
+    /* list-style-position: outside; */
 }
 
 li {
